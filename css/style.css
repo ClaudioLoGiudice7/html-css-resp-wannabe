@@ -148,3 +148,31 @@ img {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .lessons>.container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .steps>.container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .why-us>.container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        margin: auto;
+    }
+}
